@@ -10,13 +10,13 @@ Using AJAX to handle asynchronous requests for CRUD operations without page relo
 Register and login users to operate the operation in the single-page Application
 
 
-###HOME PAGE
+### HOME PAGE
 ![image](https://github.com/RosaNunezRivera/product-management-with-authentication-and-authorization/assets/146019823/bca7bbe9-e0b7-4495-a6f1-425dee7dafb9)
 
-###REGISTER PAGE
+### REGISTER PAGE
 ![image](https://github.com/RosaNunezRivera/product-management-with-authentication-and-authorization/assets/146019823/05b01958-9d90-46c3-8801-b293e248d3fb)
 
-###LOGIN PAGE
+### LOGIN PAGE
 ![image](https://github.com/RosaNunezRivera/product-management-with-authentication-and-authorization/assets/146019823/6b8586cc-015e-471e-9a42-6c2562d0c2b6)
 
 ### SINGLE PAGE APPLICATION 
