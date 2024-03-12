@@ -17,7 +17,7 @@ Register and login users to operate the operation in the single-page Application
 ![image](https://github.com/RosaNunezRivera/product-management-with-authentication-and-authorization/assets/146019823/05b01958-9d90-46c3-8801-b293e248d3fb)
 
 ### LOGIN PAGE
-![image](https://github.com/RosaNunezRivera/product-management-with-authentication-and-authorization/assets/146019823/6b8586cc-015e-471e-9a42-6c2562d0c2b6)
+![image](https://github.com/RosaNunezRivera/product-management-with-authentication-and-authorization/assets/146019823/7d42ee95-2641-41fb-95ad-d22759ef6994)
 
 ### SINGLE PAGE APPLICATION 
 ![image](https://github.com/RosaNunezRivera/product-management-with-authentication-and-authorization/assets/146019823/1124e711-186d-4b7c-afb9-23ef0b6cd813)
