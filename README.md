@@ -70,9 +70,8 @@ his project was solely created by the author Rosa Maria Nunez.
 ## Version History
 - Version 1.0.0 (Feb, 2024): Initial release.
 
-## Code Example for the Next Project Developed in Visual Studio Using AutoMapper
+## Code Example in Visual Studio Using AutoMapper
 ```csharp
-// Import necessary namespaces
 using PMSBLL;
 using PMSDLL;
 using ProductManagementWithAuthenticationAndAuthorization.Models;
@@ -114,7 +113,61 @@ namespace ProductManagementWithAuthenticationAndAuthorization.Controllers
             return Json(productVMs, JsonRequestBehavior.AllowGet);
         }
 
-        // Other controller actions...
+        [HttpPost]
+        [Authorize]
+        public JsonResult AddProduct(Product prod)
+        {
+            //Create the object ProductService
+            ProductService productService = new ProductService();
+
+            //Boolean value 
+            var productAdded = productService.AddProduct(prod);
+
+            //Return Json response true if the product was added 
+            return Json(productAdded, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpGet]
+        [Authorize]
+        public JsonResult GetProductById(int id)
+        {
+            //Create the object ProductService
+            ProductService productService = new ProductService();
+
+            //Boolean value 
+            var prodById = productService.GetProductById(id);
+
+            //Return Json response true if the product was added 
+            return Json(prodById, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public JsonResult UpdateProduct(Product product)
+        {
+            //Create the object ProductService
+            ProductService productService = new ProductService();
+
+            //Boolean value
+            var prodUpdated = productService.UpdateProduct(product);
+
+            //Return Json response true if the product was added 
+            return Json(prodUpdated, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public JsonResult DeleteProduct(int prodId)
+        {
+            //Create the object ProductService
+            ProductService productService = new ProductService();
+            if (productService.DeleteProduct(prodId))
+            {
+                //Return Json response true if the product was added Produc
+                return Json(JsonRequestBehavior.AllowGet);
+            }
+            return null;
+        }
     }
 }
 ```
