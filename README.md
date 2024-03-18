@@ -62,7 +62,7 @@ Index.cshtml
 
 ## Contact Information
 For any inquiries or support, please contact:
-- Email: rosamarianunezrivera7@gamil.
+- Email: rosamarianunezrivera7@gmail.
 
 ## Acknowledgements
 his project was solely created by the author Rosa Maria Nunez.
